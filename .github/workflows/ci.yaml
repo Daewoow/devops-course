@@ -8,9 +8,6 @@ on:
 jobs:
   dive:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: 03-compose
     steps:
       - uses: actions/checkout@v4
 
